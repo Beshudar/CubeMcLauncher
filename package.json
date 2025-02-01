@@ -1,5 +1,5 @@
 {
-    "name": "aurora-launcher-app",
+    "name": "cubemc-launcher-app",
     "version": "0.0.4",
     "description": "Launcher for Minecraft",
     "main": "build/main/index.js",
@@ -88,13 +88,13 @@
         }
     },
     "build": {
-        "appId": "ru.aurora.launcher",
-        "productName": "Aurora Launcher",
+        "appId": "ru.cubemc.launcher",
+        "productName": "CubeMc Launcher",
         "publish": [
             {
                 "provider": "github",
                 "releaseType": "release",
-                "owner": "AuroraTeam",
+                "owner": "CubeMc",
                 "repo": "Launcher"
             }
         ],
